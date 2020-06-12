@@ -1,10 +1,10 @@
 import React from 'react';
-import Vote from './vote'
 
-function App() {
+function App(props) {
+  props.add(1)  
   return (
     <div className="App">
-      <Vote/>
+      <h1>?Hello</h1>
     </div>
   );
 }
